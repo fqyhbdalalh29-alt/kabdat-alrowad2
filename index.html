@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="منيو كبدة الرواد 2 — فطور شعبي، صواريخ، صحون ووجبات. اطلب الآن عبر واتساب.">
+<meta name="theme-color" content="#10100f">
+<meta property="og:title" content="كبدة الرواد 2 | الطعم اللي يردّك">
+<meta property="og:description" content="اختَر طلبك وأرسله مباشرة عبر واتساب">
+<meta property="og:image" content="icon-512.png">
+<meta property="og:type" content="website">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<title>كبدة الرواد 2</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Reem+Kufi:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<div class="wrap hero-wrap">
+  <div class="lang"><button class="shr" id="shr" type="button"><svg viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 10.5l6.8-4M8.6 13.5l6.8 4"/></svg><span data-t="share"></span></button><div role="group" aria-label="Language"><button id="bAr" type="button">عربي</button><button id="bEn" type="button">EN</button></div></div>
+  <header class="hero">
+    <div class="hero-copy"><span class="eyebrow">من قلب الحارة إلى سفرتك</span><h1 id="h1"></h1><p class="tagline">الطعم اللي يردّك… والكرم اللي يرضيك</p><div class="branch" id="branch"></div></div>
+    <div class="logo"><img src="logo.png" width="230" height="230" alt="شعار كبدة الرواد"></div>
+  </header>
+  <div class="pulse-line"><span></span> فطورك جاهز، اختر اللي تشتهيه <span></span></div>
+  <div class="tel"><small id="telLbl"></small><b data-phone>0538925561</b></div>
+  <div class="cta">
+    <a class="btn wa" data-wa href="https://wa.me/966538925561" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M4 20l1.3-4.2A8 8 0 1 1 8.4 18.8z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.5-2-1-.8.8c-.8-.4-1.6-1.2-2-2l.8-.8-1-2z"/></svg><span data-t="wa"></span><i>←</i></a>
+    <a class="btn" data-tel href="tel:+966538925561"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><span data-t="call"></span></a>
+    <button class="btn" id="copyA" type="button"><svg viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg><span data-t="copy"></span></button>
+    <a class="btn" data-map href="https://maps.app.goo.gl/YwN8MNhT8wHCyGx68?g_st=ic" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 21s7-6 7-11a7 7 0 0 0-14 0c0 5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span data-t="map"></span></a>
+  </div>
+  <div class="search-wrap"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input class="search" id="q" type="search" aria-label="search"></div>
+</div>
+<div class="bar"><div class="barin"><nav class="chips" id="chips"></nav></div></div>
+<main class="wrap" id="menu"></main>
+<footer><strong>كبدة الرواد 2</strong><span data-t="note"></span></footer>
+<div class="cart" id="cart" hidden><div class="cart-icon">🛒</div><div class="info"><b id="cTot"></b><small id="cCnt"></small></div><button class="clr" id="cClr" type="button"></button><a id="cSend" target="_blank" rel="noopener"></a></div>
+<div class="toast" id="toast" role="status"></div>
+<script src="config.js"></script><script src="menu-data.js"></script><script src="app.js"></script>
+</body>
+</html>
